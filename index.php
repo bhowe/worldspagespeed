@@ -15,30 +15,33 @@
  
  
  
- $path = "./config/";
+$path = "./config/";
 $temp_files = scandir($path);
-var_dump($temp_files);
-//$string = file_get_contents("/images/PartsCars/A/sample.json");
-//$data = json_decode($string, true);
 
-//natsort($temp_files);
-
-exit;
 echo "<table>";
 
-/*foreach($temp_files as $file) 
+foreach($temp_files as $file) 
 {
     if($file != "." && $file != ".." && $file != "Thumbs.db" && $file != basename(__FILE__)) 
     {
+	    
+	    $string = file_get_contents( $path . $file );
+	    
+	    $data = json_decode($string, true);
+	    
+	   var_dump($data);
+	    
+       /* $data = json_decode($string, true);
+	    
         echo '<tr>';
         echo '<td><a href="'.$url.$file.'" title="'.$file.'"><img src="'.$url.$file.'" alt="" /></a></td>';
         $info = pathinfo($file);
         $file_name =  basename($file,'.'.$info['extension']);
         echo '<td>'.print_r(data['$file_name']).'</td>';
-        echo '</tr>';
+        echo '</tr>';*/
     }
 }
-echo '</table>';*/
+echo '</table>';
  
 exit;
 
