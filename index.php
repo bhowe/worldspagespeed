@@ -10,8 +10,39 @@
  // Track stats for images, JS, CSS HTML from each site to display in pie chart
 // track page speed suggestsions such as leverage browser caching, minify JS and defering js and display pie chart
 
-  
-  
+ 
+ 
+ 
+ 
+ 
+ $path = "./config/";
+$temp_files = scandir($path);
+var_dump($temp_files);
+//$string = file_get_contents("/images/PartsCars/A/sample.json");
+//$data = json_decode($string, true);
+
+//natsort($temp_files);
+
+exit;
+echo "<table>";
+
+/*foreach($temp_files as $file) 
+{
+    if($file != "." && $file != ".." && $file != "Thumbs.db" && $file != basename(__FILE__)) 
+    {
+        echo '<tr>';
+        echo '<td><a href="'.$url.$file.'" title="'.$file.'"><img src="'.$url.$file.'" alt="" /></a></td>';
+        $info = pathinfo($file);
+        $file_name =  basename($file,'.'.$info['extension']);
+        echo '<td>'.print_r(data['$file_name']).'</td>';
+        echo '</tr>';
+    }
+}
+echo '</table>';*/
+ 
+exit;
+
+//lookup page speed params 
 $myKEY = "AIzaSyDZTffMlHiwIPe0NPELYXy-TxPVLpAqDVE";  
 $url = "http://wiseguystechnologies.com";  
 $url_req = 'https://www.googleapis.com/pagespeedonline/v1/runPagespeed?url='.$url.'&key='.$myKEY;  
