@@ -4,7 +4,10 @@
 //https://developers.google.com/speed/docs/insights/v1/getting_started?hl=en
 
 // use curl to read the page speed  - DONE
+//Need to create better json files
+// Category -> name - URL
 // read in json files and build a url list of the type sites in the world
+
 // Read in pagespeed for each url in the list
 // Average pasge speed
  // Track stats for images, JS, CSS HTML from each site to display in pie chart
@@ -29,7 +32,11 @@ foreach($temp_files as $file)
 	    
 	    $data = json_decode($string, true);
 	    
-	   var_dump($data);
+	    var_dump($data['categories']);
+	    
+	  // var_dump($data['categories'][0]['domain']);
+	   
+	   echo "<br><br>";
 	    
        /* $data = json_decode($string, true);
 	    
