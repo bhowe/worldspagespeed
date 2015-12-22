@@ -21,34 +21,30 @@
 $path = "./config/";
 $temp_files = scandir($path);
 
-echo "<table>";
 
-foreach($temp_files as $file) 
+foreach($temp_files as $file) // grab all the files
 {
     if($file != "." && $file != ".." && $file != "Thumbs.db" && $file != basename(__FILE__)) 
     {
 	    
 	    $string = file_get_contents( $path . $file );
 	    
-	    $data = json_decode($string, true);
+	    $data = json_decode($string);
 	    
-	    var_dump($data['categories']);
 	    
-	  // var_dump($data['categories'][0]['domain']);
-	   
-	   echo "<br><br>";
 	    
-       /* $data = json_decode($string, true);
+	    foreach($data->categories[0]->sites as $site) //parse out each site.
+	    {
+		    
+		   
+		   		 //do something with each domain
+		   		 var_dump($site->domain);
+		   		 echo "<br><br>";
+		    
+	    }
 	    
-        echo '<tr>';
-        echo '<td><a href="'.$url.$file.'" title="'.$file.'"><img src="'.$url.$file.'" alt="" /></a></td>';
-        $info = pathinfo($file);
-        $file_name =  basename($file,'.'.$info['extension']);
-        echo '<td>'.print_r(data['$file_name']).'</td>';
-        echo '</tr>';*/
     }
 }
-echo '</table>';
  
 exit;
 
