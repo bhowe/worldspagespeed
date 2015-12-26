@@ -4,6 +4,8 @@
 //https://developers.google.com/speed/docs/insights/v1/getting_started?hl=en
 
 // use curl to read the page speed  - DONE
+//write script to pull top 500 sites from alexa.
+//https://support.alexa.com/hc/en-us/articles/200450214-Is-Alexa-s-data-available-via-an-API-
 //Need to create better json files
 // Category -> name - URL
 // read in json files and build a url list of the type sites in the world
