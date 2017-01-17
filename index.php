@@ -15,69 +15,51 @@
  // Track stats for images, JS, CSS HTML from each site to display in pie chart
 // track page speed suggestsions such as leverage browser caching, minify JS and defering js and display pie chart
 
- 
- 
- 
- 
- 
+
 $path = "./config/";
 $temp_files = scandir($path);
+$myKEY = "AIzaSyDZTffMlHiwIPe0NPELYXy-TxPVLpAqDVE"; #you think my key is important enough kk
 
 
 foreach($temp_files as $file) // grab all the files
 {
-    if($file != "." && $file != ".." && $file != "Thumbs.db" && $file != basename(__FILE__)) 
-    {
-	    
-	    $string = file_get_contents( $path . $file );
-	    
-	    $data = json_decode($string);
-	    
-	    
-	    
+      if($file != "." && $file != ".." && $file != "Thumbs.db" && $file != basename(__FILE__))
+     {
+  
+  	    $string = file_get_contents( $path . $file );
+  
+  	    $data = json_decode($string);
+
 	    foreach($data->categories[0]->sites as $site) //parse out each site.
 	    {
-		    
-		   
-		   		 //do something with each domain
-		   		 var_dump($site->domain);
-		   		 echo "<br><br>";
-		    
+          $url = $site->domain;
+          $url_req = 'https://www.googleapis.com/pagespeedonline/v1/runPagespeed?url='.$url.'&key='.$myKEY;
+          $results = checkPageSpeed($url_req);
+          echo '<pre>';
+          print_r(json_decode($results,true));
+          echo '</pre>';
 	    }
-	    
+
     }
 }
- 
-exit;
 
-//lookup page speed params 
-$myKEY = "AIzaSyDZTffMlHiwIPe0NPELYXy-TxPVLpAqDVE";  
-$url = "http://wiseguystechnologies.com";  
-$url_req = 'https://www.googleapis.com/pagespeedonline/v1/runPagespeed?url='.$url.'&key='.$myKEY;  
-$results = checkPageSpeed($url_req);  
-echo '<pre>';  
-print_r(json_decode($results,true));   
-echo '</pre>  
-';  
- 
-  
-function checkPageSpeed($url){    
-  if (function_exists('file_get_contents')) {    
-    $result = @file_get_contents($url);    
-  }    
-  if ($result == '') {    
-    $ch = curl_init();    
-    $timeout = 60;    
-    curl_setopt($ch, CURLOPT_URL, $url);    
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);   
-    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);  
-    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);  
-    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);  
-    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);    
-    $result = curl_exec($ch);    
-    curl_close($ch);    
-  }    
-  
-  return $result;    
-}  
-  
+
+function checkPageSpeed($url){
+  if (function_exists('file_get_contents')) {
+    $result = @file_get_contents($url);
+  }
+  if ($result == '') {
+    $ch = curl_init();
+    $timeout = 60;
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
+    $result = curl_exec($ch);
+    curl_close($ch);
+  }
+
+  return $result;
+}
