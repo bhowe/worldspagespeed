@@ -17,14 +17,17 @@
 
 
 $path = "./config/";
-$temp_files = scandir($path);
+$temp_files = array_diff(scandir($path), array('.', '..')); ///cleans up . and .. crap
 $myKEY = "AIzaSyDZTffMlHiwIPe0NPELYXy-TxPVLpAqDVE"; #you think my key is important enough kk
 
 
 foreach($temp_files as $file) // grab all the files
 {
-      if($file != "." && $file != ".." && $file != "Thumbs.db" && $file != basename(__FILE__))
-     {
+  
+  //echo $file;
+  //echo "<br><br>";
+  
+
   
   	    $string = file_get_contents( $path . $file );
   
@@ -40,14 +43,14 @@ foreach($temp_files as $file) // grab all the files
           $page_speed_json = json_decode($results,true);
           echo '<pre>';
           echo $page_speed_json['score'];
-         // print_r(json_decode($results,true));
+          print_r(json_decode($results,true));
           flush_buffers();
           echo '</pre>';
           
          exit;
 	    }
 
-    }
+    
 }
 
 
