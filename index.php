@@ -34,10 +34,17 @@ foreach($temp_files as $file) // grab all the files
 	    {
           $url = $site->domain;
           $url_req = 'https://www.googleapis.com/pagespeedonline/v1/runPagespeed?url='.$url.'&key='.$myKEY;
+          
+          echo $url_req . "<br><br>";
           $results = checkPageSpeed($url_req);
+          $page_speed_json = json_decode($results,true);
           echo '<pre>';
-          print_r(json_decode($results,true));
+          echo $results['score'];
+         // print_r(json_decode($results,true));
+          flush_buffers();
           echo '</pre>';
+          
+         exit;
 	    }
 
     }
@@ -62,4 +69,11 @@ function checkPageSpeed($url){
   }
 
   return $result;
+}
+
+function flush_buffers()
+{
+    ob_end_flush();
+    flush();
+    ob_start();
 }
