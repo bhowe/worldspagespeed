@@ -39,7 +39,7 @@ foreach($temp_files as $file) // grab all the files
           $results = checkPageSpeed($url_req);
           $page_speed_json = json_decode($results,true);
           echo '<pre>';
-          echo $results['score'];
+          echo $page_speed_json['score'];
          // print_r(json_decode($results,true));
           flush_buffers();
           echo '</pre>';

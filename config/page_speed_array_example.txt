@@ -1,0 +1,1748 @@
+Array
+(
+    [kind] => pagespeedonline#result
+    [id] => http://chicago.suntimes.com/
+    [responseCode] => 200
+    [title] => Chicago Sun-Times: Chicago news, sports, politics, entertainment
+    [score] => 19
+    [pageStats] => Array
+        (
+            [numberResources] => 173
+            [numberHosts] => 64
+            [totalRequestBytes] => 43329
+            [numberStaticResources] => 67
+            [htmlResponseBytes] => 234048
+            [cssResponseBytes] => 368715
+            [imageResponseBytes] => 3948213
+            [javascriptResponseBytes] => 2806410
+            [otherResponseBytes] => 240935
+            [numberJsResources] => 51
+            [numberCssResources] => 5
+        )
+
+    [formattedResults] => Array
+        (
+            [locale] => en_US
+            [ruleResults] => Array
+                (
+                    [AvoidLandingPageRedirects] => Array
+                        (
+                            [localizedRuleName] => Avoid landing page redirects
+                            [ruleImpact] => 0
+                            [urlBlocks] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [header] => Array
+                                                (
+                                                    [format] => Your page has no redirects. Learn more about avoiding landing page redirects.
+                                                    [args] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [type] => HYPERLINK
+                                                                    [value] => https://developers.google.com/speed/docs/insights/AvoidRedirects
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [EnableGzipCompression] => Array
+                        (
+                            [localizedRuleName] => Enable compression
+                            [ruleImpact] => 0.3336
+                            [urlBlocks] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [header] => Array
+                                                (
+                                                    [format] => Compressing resources with gzip or deflate can reduce the number of bytes sent over the network.
+                                                )
+
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [header] => Array
+                                                (
+                                                    [format] => Enable compression for the following resources to reduce their transfer size by $2 ($3 reduction).
+                                                    [args] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [type] => HYPERLINK
+                                                                    [value] => https://developers.google.com/speed/docs/insights/EnableCompression
+                                                                )
+
+                                                            [1] => Array
+                                                                (
+                                                                    [type] => BYTES
+                                                                    [value] => 3.3KiB
+                                                                )
+
+                                                            [2] => Array
+                                                                (
+                                                                    [type] => PERCENTAGE
+                                                                    [value] => 55%
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [urls] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://t.brand-server.com/ul_cb/adj?s=34595&sz=300x250&url=http://chicago.suntimes.com/&ord=1031164281
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 1.1KiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 51%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://ssum.casalemedia.com/usermatch?s=178372&cb=http%3A%2F%2Ft.brand-server.com%2Fmatch_back%3Fbidder_id%3D2%26external_user_id%3D&C=1
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 1.1KiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 67%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://t.brand-server.com/adj?s=34597&sz=300x600&url=http://chicago.suntimes.com/&ord=888084875
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 1KiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 51%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [LeverageBrowserCaching] => Array
+                        (
+                            [localizedRuleName] => Leverage browser caching
+                            [ruleImpact] => 9.2375925925926
+                            [urlBlocks] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [header] => Array
+                                                (
+                                                    [format] => Setting an expiry date or a maximum age in the HTTP headers for static resources instructs the browser to load previously downloaded resources from local disk rather than over the network.
+                                                )
+
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [header] => Array
+                                                (
+                                                    [format] => Leverage browser caching for the following cacheable resources:
+                                                    [args] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [type] => HYPERLINK
+                                                                    [value] => https://developers.google.com/speed/docs/insights/LeverageBrowserCaching
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [urls] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 (expiration not specified)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://pixel.everesttech.net/1x1
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 ($2)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://m.addthisedge.com/live/boost/ra-5419af2b250842c9/_ate.track.config_resp
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => DURATION
+                                                                                    [value] => 60 seconds
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 ($2)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://0.gravatar.com/avatar/30d6b37c36b5c9c67d565aef87e965a3?s=80&d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&r=PG
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => DURATION
+                                                                                    [value] => 5 minutes
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 ($2)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://s7.addthis.com/js/300/addthis_widget.js
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => DURATION
+                                                                                    [value] => 10 minutes
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 ($2)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://www.googletagservices.com/tag/js/gpt.js
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => DURATION
+                                                                                    [value] => 15 minutes
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 ($2)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://cdn.krxd.net/controltag/Hv5AkQT7.js
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => DURATION
+                                                                                    [value] => 20 minutes
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 ($2)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://cdn.krxd.net/controltag?confid=Hv5AkQT7
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => DURATION
+                                                                                    [value] => 20 minutes
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 ($2)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://platform.twitter.com/widgets.js
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => DURATION
+                                                                                    [value] => 30 minutes
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 ($2)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://mtrx.go.sonobi.com/morpheus.chicagosuntimes.5552.js
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => DURATION
+                                                                                    [value] => 60 minutes
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 ($2)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://pagead2.googlesyndication.com/pagead/osd.js
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => DURATION
+                                                                                    [value] => 60 minutes
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 ($2)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://pagead2.googlesyndication.com/pagead/show_ads.js
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => DURATION
+                                                                                    [value] => 60 minutes
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 ($2)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://s.ntv.io/serve/load.js
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => DURATION
+                                                                                    [value] => 60 minutes
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [12] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 ($2)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://suntimes-d.openx.net/w/1.0/jstag?nc=61924087-suntimes
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => DURATION
+                                                                                    [value] => 60 minutes
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [13] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 ($2)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://pagead2.googlesyndication.com/pagead/osd.js
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => DURATION
+                                                                                    [value] => 60 minutes
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [14] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 ($2)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://gum.criteo.com/sync?c=2&r=2&j=rp_onUserIdLoaded_179518_15
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => DURATION
+                                                                                    [value] => 60 minutes
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [15] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 ($2)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://ads.rubiconproject.com/ad/7416.js
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => DURATION
+                                                                                    [value] => 96.8 minutes
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [16] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 ($2)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://asset.pagefair.com/measure.min.js
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => DURATION
+                                                                                    [value] => 2 hours
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [17] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 ($2)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://asset.pagefair.net/ads.min.js
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => DURATION
+                                                                                    [value] => 2 hours
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [18] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 ($2)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://static.chartbeat.com/js/chartbeat.js
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => DURATION
+                                                                                    [value] => 2 hours
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [19] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1 ($2)
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://www.google-analytics.com/analytics.js
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => DURATION
+                                                                                    [value] => 2 hours
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [MainResourceServerResponseTime] => Array
+                        (
+                            [localizedRuleName] => Reduce server response time
+                            [ruleImpact] => 0
+                            [urlBlocks] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [header] => Array
+                                                (
+                                                    [format] => Your server responded quickly. Learn more about server response time optimization.
+                                                    [args] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [type] => HYPERLINK
+                                                                    [value] => https://developers.google.com/speed/docs/insights/Server
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [MinifyCss] => Array
+                        (
+                            [localizedRuleName] => Minify CSS
+                            [ruleImpact] => 0
+                            [urlBlocks] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [header] => Array
+                                                (
+                                                    [format] => Your CSS is minified. Learn more about minifying CSS.
+                                                    [args] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [type] => HYPERLINK
+                                                                    [value] => https://developers.google.com/speed/docs/insights/MinifyResources
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [MinifyHTML] => Array
+                        (
+                            [localizedRuleName] => Minify HTML
+                            [ruleImpact] => 0
+                            [urlBlocks] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [header] => Array
+                                                (
+                                                    [format] => Your HTML is minified. Learn more about minifying HTML.
+                                                    [args] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [type] => HYPERLINK
+                                                                    [value] => https://developers.google.com/speed/docs/insights/MinifyResources
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [MinifyJavaScript] => Array
+                        (
+                            [localizedRuleName] => Minify JavaScript
+                            [ruleImpact] => 0.4154
+                            [urlBlocks] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [header] => Array
+                                                (
+                                                    [format] => Compacting JavaScript code can save many bytes of data and speed up downloading, parsing, and execution time.
+                                                )
+
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [header] => Array
+                                                (
+                                                    [format] => Minify JavaScript for the following resources to reduce their size by $2 ($3 reduction).
+                                                    [args] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [type] => HYPERLINK
+                                                                    [value] => https://developers.google.com/speed/docs/insights/MinifyResources
+                                                                )
+
+                                                            [1] => Array
+                                                                (
+                                                                    [type] => BYTES
+                                                                    [value] => 4.1KiB
+                                                                )
+
+                                                            [2] => Array
+                                                                (
+                                                                    [type] => PERCENTAGE
+                                                                    [value] => 31%
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [urls] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Minifying $1 could save $2 ($3 reduction) after compression.
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://s0.wp.com/_static/??-eJxtjEEOwjAMBD9EMIVIcEG8pWpXrUPimjoJPJ9cKlWI687M0lvdsEiGZApGIyoP0M8x2IF2KBWnsUwsRpGfMHoVFMy9jBHrr5xnpKZUVtqiFaaLGFc4Tv3UaPgztqNHunf+evIX393O4QuZzjqF
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 3.3KiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 39%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Minifying $1 could save $2 ($3 reduction) after compression.
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://s1.wp.com/_static/??-eJx9jEEOgzAMBD9U17Qg4FL1LW6IKkfEiWID6u+bXuCCetrRandwy+CSmBfDuECelzeL4h1WzhgUawAJzR9jp9egFzw/0BRZ4EUFI6n5UgnS6kvhyevR/TM44yQ/w051/YyPWzf0bTv2QxO+RTU/7g==
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 793B
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 16%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [MinimizeRenderBlockingResources] => Array
+                        (
+                            [localizedRuleName] => Eliminate render-blocking JavaScript and CSS in above-the-fold content
+                            [ruleImpact] => 12
+                            [urlBlocks] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [header] => Array
+                                                (
+                                                    [format] => Your page has $1 blocking script resources and $2 blocking CSS resources. This causes a delay in rendering your page.
+                                                    [args] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [type] => INT_LITERAL
+                                                                    [value] => 2
+                                                                )
+
+                                                            [1] => Array
+                                                                (
+                                                                    [type] => INT_LITERAL
+                                                                    [value] => 3
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [header] => Array
+                                                (
+                                                    [format] => None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML.
+                                                )
+
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [header] => Array
+                                                (
+                                                    [format] => Remove render-blocking JavaScript:
+                                                    [args] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [type] => HYPERLINK
+                                                                    [value] => https://developers.google.com/speed/docs/insights/BlockingJS
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [urls] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://r-login.wordpress.com/remote-login.php?action=js&host=chicago.suntimes.com&id=107184512&t=1484706715&back=http%3A%2F%2Fchicago.suntimes.com%2F
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://s2.wp.com/_static/??-eJylkvFqwyAQxl9oVtqVkX/GHqVYczWX6um8M6V9+pl0g42FjmQgCufPz8/P05ekkKwvLbDu63gvkK+fy6bnJ/0IUAFdNgKbgPQF20gCJCMb4hE9qMKQjau1KnSKM1yKLAGYKzSz+9MS0oBw+RPrQZKxZ5WB8fZLVTqo9+kBk06+OCTWo7Uc1IAtRBWM2G4UpZYOd+KQytGjfaBkO7TGRS4kONYMM8iU2QDUxqxPsVBrBCPN5bVEKcQWMuEtrxKZINXFAGkm8SU+uCZyvs+rn+SM9996bdFZGMauklx/GsmtkjBk/FXQ8n9yMEXi5KKKvIXX7b7ZbZtd8/zSfwAcskj+
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [header] => Array
+                                                (
+                                                    [format] => Optimize CSS Delivery of the following:
+                                                    [args] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [type] => HYPERLINK
+                                                                    [value] => https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [urls] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://s1.wp.com/_static/??-eJyljsFOw0AMRH+IrVUoiB4Qn1Jtdt3GENur2Juof8+GKBdAuXCx7NG8GcNcQlJxFAeuoQz1RmIwl6QcjGnA+4/rkMwe4G8s6YhN5xJ9cTBmijggN9sexuVlo5a1j+lzt2b9p+vKiGahTabKwftW9JtbZZiowMaTXHXkMFFGDRw99dAokCyX1XIptRso7WWlnlK8qVVxWrRohm7fORNK1hGuWiVHJ5UDk/w3SzzEGU0Zt7R3fjuens+Pp+P56fXjC6NTrLw=
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://fonts.googleapis.com/css?family=Merriweather%3A300%2C300i%2C400%2C400i%2C700%2C700i%2C900%2C900i%7COpen+Sans%3A300%2C400%2C400i%2C600%2C600i%2C700%2C700i%2C800%2C800i%7CRaleway&subset=latin&ver=4.6.1-RC1-38499
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => $1
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://s2.wp.com/_static/??-eJydT9EOgjAM/CFnoxD0xfgtZdZRHSvZhvy+YxiIMZLoS3O93l1bGDqlxUVyEWJDLQV4cAe6YY1GQu8ijxyGQDGADmlM7iIeBsKk95l6YcUpKWwTs4GfY7PqD+9tvihY1vepTjkMTmK+aQYfC9pedbY3nDSGRFnRGFncW6OuFtmvWT3VVkyCJv+ytGsm1GN4jX5B3/5vSjBWarSj4NyeduVxXxRVdahuTxSXqSQ=
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [OptimizeImages] => Array
+                        (
+                            [localizedRuleName] => Optimize images
+                            [ruleImpact] => 351.2749
+                            [urlBlocks] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [header] => Array
+                                                (
+                                                    [format] => Properly formatting and compressing images can save many bytes of data.
+                                                )
+
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [header] => Array
+                                                (
+                                                    [format] => Optimize the following images to reduce their size by $2 ($3 reduction).
+                                                    [args] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [type] => HYPERLINK
+                                                                    [value] => https://developers.google.com/speed/docs/insights/OptimizeImages
+                                                                )
+
+                                                            [1] => Array
+                                                                (
+                                                                    [type] => BYTES
+                                                                    [value] => 3.3MiB
+                                                                )
+
+                                                            [2] => Array
+                                                                (
+                                                                    [type] => PERCENTAGE
+                                                                    [value] => 92%
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [urls] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing and resizing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://suntimesmedia.files.wordpress.com/2017/01/zion-xxxx17-02_66171267.jpg
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 3.1MiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 97%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://suntimesmedia.files.wordpress.com/2017/01/amanda-jane-cooper-as-glinda-and-jessica-vosk-as-elphaba-photo-by-joan-marcus.jpg?w=228&h=134&crop=1
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 42.4KiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 84%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://suntimesmedia.files.wordpress.com/2017/01/21.jpg?w=228&h=134&crop=1
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 29.6KiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 78%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://suntimesmedia.files.wordpress.com/2016/02/obamacare-1-1.jpg?w=228&h=134&crop=1
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 27.8KiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 74%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://suntimesmedia.files.wordpress.com/2016/12/thinkstockphotos-103583424.jpg?w=228&h=134&crop=1
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 23.8KiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 79%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [5] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://suntimesmedia.files.wordpress.com/2017/01/steinberg-011817-01.jpg?w=320&h=240&crop=1
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 17.1KiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 41%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [6] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://suntimesmedia.files.wordpress.com/2016/07/vgygftmcirosvwl3fxa.jpg?w=320&h=240&crop=1
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 17.1KiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 53%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [7] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://suntimesmedia.files.wordpress.com/2017/01/chicago_police_civil_rights_report_66350611.jpg?w=320&h=240&crop=1
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 12.3KiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 39%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [8] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://suntimesmedia.files.wordpress.com/2016/07/vgygftmcirosvwl3fxa.jpg?w=228&h=134&crop=1
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 10.2KiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 56%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [9] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://suntimesmedia.files.wordpress.com/2017/01/csu-011817-02_66422049.jpg?w=320&h=240&crop=1
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 9.7KiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 38%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [10] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://suntimesmedia.files.wordpress.com/2017/01/airport_security_soft_spot_60205217.jpg?w=228&h=134&crop=1
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 9.4KiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 52%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [11] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://suntimesmedia.files.wordpress.com/2017/01/cs-copy.jpg?w=206&h=134&crop=1
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 9KiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 63%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [12] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://suntimesmedia.files.wordpress.com/2017/01/lopezrivera.jpg?w=320&h=240&crop=1
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 8.8KiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 36%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [13] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://suntimesmedia.files.wordpress.com/2017/01/theatre-01181703_66424203.jpg?w=228&h=134&crop=1
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 7.8KiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 46%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [14] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://suntimesmedia.files.wordpress.com/2017/01/chelsea_manning_obama_66425667.jpg?w=320&h=240&crop=1
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 4.2KiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 22%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [15] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => https://suntimesmedia.files.wordpress.com/2017/01/chist_01-17_main_1.jpg?w=297&h=287&crop=1
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 3.2KiB
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 14%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [16] => Array
+                                                        (
+                                                            [result] => Array
+                                                                (
+                                                                    [format] => Compressing $1 could save $2 ($3 reduction).
+                                                                    [args] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => URL
+                                                                                    [value] => http://0.gravatar.com/avatar/30d6b37c36b5c9c67d565aef87e965a3?s=80&d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&r=PG
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => BYTES
+                                                                                    [value] => 627B
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => PERCENTAGE
+                                                                                    [value] => 24%
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [PrioritizeVisibleContent] => Array
+                        (
+                            [localizedRuleName] => Prioritize visible content
+                            [ruleImpact] => 0
+                            [urlBlocks] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [header] => Array
+                                                (
+                                                    [format] => You have the above-the-fold content properly prioritized. Learn more about prioritizing visible content.
+                                                    [args] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [type] => HYPERLINK
+                                                                    [value] => https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [version] => Array
+        (
+            [major] => 1
+            [minor] => 15
+        )
+
+)
