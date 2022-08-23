@@ -1,5 +1,6 @@
 {
     "require": {
-        "sgrodzicki/pagespeed": "~2.0"
+        "sgrodzicki/pagespeed": "~2.0",
+        "yosymfony/toml": "^1.0"
     }
 }

@@ -1,6 +1,17 @@
 <?php
 
 
+use Yosymfony\Toml\Toml;
+
+//todos
+
+//DB schema
+// buold tables
+// get TOML confoigurationw working
+// test API lib
+
+
+
 //https://developers.google.com/speed/docs/insights/v1/getting_started?hl=en
 
 // use curl to read the page speed  - DONE
@@ -16,10 +27,15 @@
 // track page speed suggestsions such as leverage browser caching, minify JS and defering js and display pie chart
 
 
-$path = "./config/";
-$temp_files = array_diff(scandir($path), array('.', '..')); ///cleans up . and .. crap
-$myKEY = "AIzaSyDZTffMlHiwIPe0NPELYXy-TxPVLpAqDVE"; #you think my key is important enough kk
+//$path = "./config/";
+//$temp_files = array_diff(scandir($path), array('.', '..')); ///cleans up . and .. crap
 
+
+//get t
+
+$array = Toml::ParseFile('./config/app_config.toml');
+
+print_r($array);
 
 foreach($temp_files as $file) // grab all the files
 {
@@ -79,4 +95,14 @@ function flush_buffers()
     ob_end_flush();
     flush();
     ob_start();
+}
+
+//generate a function  to read TOML config file
+
+
+
+function readConfig($file) {
+  $config = file_get_contents($file);
+  $config = json_decode($config, true);
+  return $config;
 }
